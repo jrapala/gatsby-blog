@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 
 export default () => (
 	<Fragment>
-		<div>Home</div>
-		<p>Hello Minnesota!</p>
-		<Link to="/about">Learn about me &rarr;</Link>
+		<h1>About Me</h1>
+		<p>This is my personal website</p>
+		<Link to="/">&larr; Back to Home</Link>
 	</Fragment>
 )
